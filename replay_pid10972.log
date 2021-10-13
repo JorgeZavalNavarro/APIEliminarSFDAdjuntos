@@ -1,0 +1,164 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 126 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 36940 0 0
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 681 1 386 0 -1
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 3081 12545 5226 0 -1
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2049 321 5760 0 -1
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 105 5049 2474 0 0
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 0 0 1 0 0
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2049 1 5395 0 224
+ciMethod java/util/HashMap replacementTreeNode (Ljava/util/HashMap$Node;Ljava/util/HashMap$Node;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 1233 1 132 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2049 1 1556 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2049 1 5859 0 0
+ciMethod java/io/File compareTo (Ljava/io/File;)I 289 1 36 0 -1
+ciMethod java/io/File equals (Ljava/lang/Object;)Z 297 1 37 0 0
+ciMethod java/io/FileSystem compare (Ljava/io/File;Ljava/io/File;)I 0 0 1 0 -1
+ciMethod java/util/LinkedHashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 0 0 43 0 0
+ciMethodData java/lang/Object <init> ()V 2 36945 orig 264 104 158 182 105 0 0 0 0 136 4 196 27 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 137 114 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode treeify ([Ljava/util/HashMap$Node;)V 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 0 0 1 0 -1
+ciMethodData java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 2 5760 orig 264 104 158 182 105 0 0 0 0 136 148 210 27 0 0 0 0 176 6 0 0 144 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 172 0 0 57 15 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 50 0 4 0 1 0 64 5 0 0 255 255 255 255 7 0 7 0 0 0 0 0 data 168 0x70007 0x631 0x40 0xf4f 0x100007 0xf4f 0x50 0x0 0x140005 0x1 0x1e2f5990 0x625 0x1e2f6200 0xb 0x2c0007 0x5da 0x98 0xfa6 0x380005 0x10a 0x1e2f5990 0xe93 0x1e2f62b0 0x9 0x3b0004 0x0 0x1e2f6360 0xe93 0x1e2f6410 0x113 0x3c0003 0xfa6 0x3d0 0x450007 0x53f 0xc8 0x9b 0x510007 0x94 0x90 0x7 0x550007 0x0 0x88 0x7 0x5b0005 0x0 0x1e2f64c0 0x6 0x2fe62b0 0x1 0x5e0007 0x0 0x38 0x7 0x650003 0x9b 0x278 0x6a0004 0xfffffffffffffac1 0x1e2f6410 0xf 0x0 0x0 0x6d0007 0x53f 0x98 0x0 0x720004 0x0 0x0 0x0 0x0 0x0 0x7b0005 0x0 0x0 0x0 0x0 0x0 0x800003 0x0 0x1b0 0x8e0007 0x1f1 0xb8 0x535 0x980005 0x94 0x1e2f5990 0x49c 0x1e2f62b0 0x5 0xa20007 0x535 0x148 0x0 0xa90005 0x0 0x0 0x0 0x0 0x0 0xac0003 0x0 0xf8 0xb50007 0x1e7 0xc8 0xa 0xc10007 0xa 0xc0 0x0 0xc50007 0x0 0x88 0x0 0xcb0005 0x0 0x0 0x0 0x0 0x0 0xce0007 0x0 0x38 0x0 0xd10003 0x0 0x30 0xdb0003 0x1e7 0xfffffffffffffe80 0xe00007 0x535 0x90 0xa5 0xec0007 0xa5 0x40 0x0 0xf10007 0x0 0x20 0x0 0xfdc005 0x0 0x1e2f5990 0x83 0x1e2f6200 0x26 0x11c0007 0x1488 0x50 0x53 0x1200005 0x12 0x1e2f5990 0x40 0x1e2f62b0 0x1 0x1270005 0x19e 0x1e2f5990 0x132f 0x1e2f62b0 0xe oops 17 10 java/util/HashMap 12 java/util/LinkedHashMap 20 java/util/HashMap 22 java/io/ExpiringCache$1 26 java/util/HashMap$Node 28 java/util/LinkedHashMap$Entry 47 java/io/File 49 java/lang/String 60 java/util/LinkedHashMap$Entry 89 java/util/HashMap 91 java/io/ExpiringCache$1 148 java/util/HashMap 150 java/util/LinkedHashMap 158 java/util/HashMap 160 java/io/ExpiringCache$1 164 java/util/HashMap 166 java/io/ExpiringCache$1
+ciMethodData java/util/HashMap resize ()[Ljava/util/HashMap$Node; 2 13207 orig 264 104 158 182 105 0 0 0 0 184 150 210 27 0 0 0 0 56 6 0 0 176 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119 2 0 0 233 76 0 0 1 137 1 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 56 0 3 0 1 0 240 4 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 158 0x60007 0x64 0x38 0x939 0xa0003 0x939 0x18 0x190007 0x939 0x98 0x64 0x1f0007 0x64 0x20 0x0 0x320007 0x0 0x90 0x64 0x380007 0x4 0x70 0x60 0x400003 0x60 0x50 0x440007 0x41 0x38 0x8f8 0x4a0003 0x8f8 0x18 0x570007 0xa1 0x78 0x8fc 0x680007 0x0 0x58 0x8fc 0x700007 0x0 0x38 0x8fc 0x760003 0x8fc 0x18 0x880004 0x0 0x1e2f8b60 0x1fb 0x0 0x0 0x940007 0x939 0x340 0x64 0x9d0007 0x64 0x320 0x242e 0xa70007 0x113c 0x2e8 0x12f2 0xae0104 0x0 0x0 0x0 0x0 0x0 0xb40007 0x65e 0x68 0xc94 0xc50004 0x0 0x1e2f6360 0xba8 0x1e2f6410 0xec 0xc60003 0xc94 0x248 0xcb0004 0xfffffffffffff9a2 0x1e2f6360 0x1f7 0x1e2f6410 0x8 0xce0007 0x65e 0x98 0x0 0xd30004 0x0 0x0 0x0 0x0 0x0 0xdc0005 0x0 0x0 0x0 0x0 0x0 0xdf0003 0x0 0x180 0xfc0007 0x6ec 0x70 0x805 0x1010007 0x304 0x38 0x501 0x1080003 0x501 0x18 0x1160003 0x805 0x50 0x11b0007 0x239 0x38 0x4b3 0x1220003 0x4b3 0x18 0x1350007 0x893 0xffffffffffffff58 0x65e 0x13a0007 0x15d 0x50 0x501 0x1490004 0x0 0x1e2f6360 0x4ae 0x1e2f6410 0x53 0x14c0007 0x1ab 0x50 0x4b3 0x15d0004 0x0 0x1e2f6360 0x457 0x1e2f6410 0x5c 0x1610003 0x242e 0xfffffffffffffcf8 oops 9 50 [Ljava/util/HashMap$Node; 78 java/util/HashMap$Node 80 java/util/LinkedHashMap$Entry 87 java/util/HashMap$Node 89 java/util/LinkedHashMap$Entry 141 java/util/HashMap$Node 143 java/util/LinkedHashMap$Entry 151 java/util/HashMap$Node 153 java/util/LinkedHashMap$Entry
+ciMethodData java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 1 0 orig 264 104 158 182 105 0 0 0 0 200 151 210 27 0 0 0 0 8 3 0 0 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 176 1 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 54 0x10007 0x0 0x40 0x0 0xa0007 0x0 0x68 0x0 0xe0005 0x0 0x0 0x0 0x0 0x0 0x120003 0x0 0x140 0x220007 0x0 0x128 0x0 0x2f0005 0x0 0x0 0x0 0x0 0x0 0x360007 0x0 0x38 0x0 0x3d0003 0x0 0x18 0x5a0007 0x0 0xffffffffffffff98 0x0 0x630004 0x0 0x0 0x0 0x0 0x0 0x640007 0x0 0x50 0x0 0x6a0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2 5859 orig 264 104 158 182 105 0 0 0 0 96 197 210 27 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 25 175 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 1 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x15e3 oops 0
+ciMethodData java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2 5395 orig 264 104 158 182 105 0 0 0 0 24 176 210 27 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 153 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 4 0 1 0 16 0 0 0 255 255 255 255 2 0 9 0 0 0 0 0 data 2 0x90002 0x1413 oops 0
+ciMethodData java/util/HashMap afterNodeInsertion (Z)V 2 1556 orig 264 104 158 182 105 0 0 0 0 224 179 210 27 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 161 40 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/LinkedHashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 1 43 orig 264 104 158 182 105 0 0 0 0 80 200 216 27 0 0 0 0 104 2 0 0 200 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 89 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 0 24 1 0 0 255 255 255 255 7 0 4 0 0 0 0 0 data 35 0x40007 0x26 0x118 0x5 0xe0007 0x0 0xf8 0x5 0x120004 0x0 0x1e2f6410 0x5 0x0 0x0 0x290007 0x0 0x38 0x5 0x320003 0x5 0x18 0x3e0007 0x0 0x38 0x5 0x480003 0x5 0x18 0x4f0007 0x5 0x38 0x0 0x570003 0x0 0x18 oops 1 10 java/util/LinkedHashMap$Entry
+instanceKlass java/security/spec/ECFieldF2m
+instanceKlass java/security/spec/ECParameterSpec
+instanceKlass java/security/spec/AlgorithmParameterSpec
+instanceKlass java/security/spec/ECPoint
+instanceKlass java/security/spec/EllipticCurve
+instanceKlass java/security/spec/ECFieldFp
+instanceKlass java/security/spec/ECField
+instanceKlass sun/security/ec/CurveDB
+instanceKlass sun/security/ec/SunECEntries
+instanceKlass sun/security/ec/SunEC$1
+instanceKlass java/security/interfaces/DSAPublicKey
+instanceKlass java/security/interfaces/DSAKey
+instanceKlass java/security/spec/DSAPublicKeySpec
+instanceKlass java/security/AlgorithmParametersSpi
+instanceKlass java/security/AlgorithmParameters
+instanceKlass sun/security/x509/RFC822Name
+instanceKlass sun/security/x509/NetscapeCertTypeExtension$MapEntry
+instanceKlass javax/net/ssl/SSLContextSpi
+instanceKlass javax/net/ssl/SSLContext
+instanceKlass com/microsoft/sqlserver/jdbc/TDSChannel$PermissiveX509TrustManager
+instanceKlass javax/net/ssl/X509TrustManager
+instanceKlass javax/net/ssl/TrustManager
+instanceKlass sun/nio/fs/BasicFileAttributesHolder
+instanceKlass sun/nio/fs/WindowsDirectoryStream$WindowsDirectoryIterator
+instanceKlass sun/nio/fs/WindowsFileAttributes
+instanceKlass java/nio/file/attribute/DosFileAttributes
+instanceKlass java/nio/file/attribute/BasicFileAttributes
+instanceKlass sun/nio/fs/NativeBuffer$Deallocator
+instanceKlass sun/nio/fs/NativeBuffer
+instanceKlass sun/nio/fs/NativeBuffers
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$BackupResult
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$CompletionStatus
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$AclInformation
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$Account
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$DiskFreeSpace
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$VolumeInformation
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$FirstStream
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$FirstFile
+instanceKlass sun/nio/fs/WindowsNativeDispatcher$1
+instanceKlass sun/nio/fs/WindowsNativeDispatcher
+instanceKlass sun/nio/fs/WindowsDirectoryStream
+instanceKlass java/nio/file/DirectoryStream
+instanceKlass java/nio/file/Files$AcceptAllFilter
+instanceKlass java/nio/file/DirectoryStream$Filter
+instanceKlass java/nio/file/Files
+instanceKlass sun/nio/fs/AbstractPath
+instanceKlass sun/nio/fs/Util
+instanceKlass sun/nio/fs/WindowsPathParser$Result
+instanceKlass sun/nio/fs/WindowsPathParser
+instanceKlass java/nio/file/FileSystem
+instanceKlass java/nio/file/spi/FileSystemProvider
+instanceKlass sun/nio/fs/DefaultFileSystemProvider
+instanceKlass java/nio/file/FileSystems$DefaultFileSystemHolder$1
+instanceKlass java/nio/file/FileSystems$DefaultFileSystemHolder
+instanceKlass java/nio/file/FileSystems
+instanceKlass java/net/NetworkInterface$2
+instanceKlass java/net/DefaultInterface
+instanceKlass java/net/InterfaceAddress
+instanceKlass java/net/NetworkInterface$1
+instanceKlass java/net/NetworkInterface
+instanceKlass java/lang/StringCoding$StringEncoder
+instanceKlass sun/security/provider/SeedGenerator$1
+instanceKlass sun/security/provider/SeedGenerator
+instanceKlass sun/security/provider/SecureRandom$SeederHolder
+instanceKlass java/security/SecureRandomSpi
+instanceKlass java/util/AbstractList$Itr
+instanceKlass java/util/Random
+instanceKlass java/util/UUID$Holder
+instanceKlass java/util/UUID
+instanceKlass java/net/Socket$3
+instanceKlass java/net/Socket$2
+instanceKlass sun/net/NetHooks
+instanceKlass java/net/Proxy
+instanceKlass sun/net/spi/DefaultProxySelector$3
+instanceKlass sun/net/spi/DefaultProxySelector$NonProxyInfo
+instanceKlass sun/net/NetProperties$1
+instanceKlass sun/net/NetProperties
+instanceKlass sun/net/spi/DefaultProxySelector$1
+instanceKlass java/net/ProxySelector
+instanceKlass java/net/SocksSocketImpl$3
+instanceKlass java/net/PlainSocketImpl$1
+instanceKlass java/net/AbstractPlainSocketImpl$1
+instanceKlass java/net/SocketImpl
+instanceKlass java/net/SocketOptions
+instanceKlass java/net/SocksConsts
+instanceKlass javax/net/SocketFactory
+instanceKlass sun/net/util/IPAddressUtil
+instanceKlass java/net/InetSocketAddress$InetSocketAddressHolder
+instanceKlass java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject
+instanceKlass java/util/concurrent/locks/Condition
+instanceKlass java/util/concurrent/Executors$DefaultThreadFactory
+instanceKlass java/util/concurrent/ThreadFactory
+instanceKlass java/util/concurrent/Executors
+instanceKlass java/util/concurrent/SynchronousQueue$TransferStack$SNode
+instanceKlass java/util/concurrent/SynchronousQueue$Transferer
+instanceKlass java/util/concurrent/ThreadPoolExecutor$AbortPolicy
+instanceKlass java/util/concurrent/RejectedExecutionHandler
+instanceKlass java/util/concurrent/AbstractExecutorService
+instanceKlass java/util/concurrent/ExecutorService
+instanceKlass java/util/concurrent/Executor
+instanceKlass java/net/SocketAddress
+instanceKlass java/util/concurrent/BlockingQueue
+instanceKlass com/microsoft/sqlserver/jdbc/SocketFinder
+instanceKlass com/microsoft/sqlserver/jdbc/TDSWriter
+instanceKlass java/net/Socket
+instanceKlass com/microsoft/sqlserver/jdbc/TDSChannel
+instanceKlass java/net/InetAddress$CacheEntry
+instanceKlass java/util/LinkedList$ListItr
+instanceKlass sun/net/InetAddressCachePolicy$2
+instanceKlass sun/net/InetAddressCachePolicy$1
+instanceKlass sun/net/InetAddressCachePolicy
+instanceKlass java/net/Inet4AddressImpl
+instanceKlass java/net/Inet6Address$Inet6AddressHolder
+instanceKlass java/net/InetAddress$2
+instanceKlass sun/net/spi/nameservice/NameService
+instanceKlass java/net/Inet6AddressImpl
+instanceKlass java/net/InetAddressImpl
+instanceKlass java/net/InetAddressImplFactory
+instanceKlass java/net/InetAddress$Cache
+instanceKlass java/net/InetAddress$InetAddressHolder
+instanceKlass java/net/InetAddress$1
+instanceKlass java/net/InetAddress
+instanceKlass com/microsoft/sqlserver/jdbc/SQLServerConnectionSecurityManager
+instanceKlass com/microsoft/sqlserver/jdbc/ServerPortPlaceHolder
+instanceKlass com/microsoft/sqlserver/jdbc/FailoverMapSingleton
+instanceKlass com/microsoft/sqlserver/jdbc/StringUtils
+instanceKlass com/microsoft/sqlserver/jdbc/MaxResultBufferParser
+instanceKlass com/microsoft/sqlserver/jdbc/SQLServerColumnEncryptionKeyStoreProvider
+instanceKlass java/util/concurrent/atomic/AtomicReference
+instanceKlass java/util/concurrent/ConcurrentLinkedQueue$Node
+instanceKlass mssql/googlecode/concurrentlinkedhashmap/Linked
+instanceKlass mssql/googlecode/concurrentlinkedhashmap/Weigher
+instanceKlass mssql/googlecode/concurrentlinkedhashmap/Weighers
+instanceKlass mssql/googlecode/concurrentlinkedhashmap/EntryWeigher

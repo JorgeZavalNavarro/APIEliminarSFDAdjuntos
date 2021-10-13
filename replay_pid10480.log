@@ -1,0 +1,24 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 89 ciObject found
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2049 1 5376 0 -1
+instanceKlass java/security/spec/ECFieldF2m
+instanceKlass java/security/spec/ECParameterSpec
+instanceKlass java/security/spec/AlgorithmParameterSpec
+instanceKlass java/security/spec/ECPoint
+instanceKlass java/security/spec/EllipticCurve
+instanceKlass java/security/spec/ECFieldFp
+instanceKlass java/security/spec/ECField
+instanceKlass sun/security/ec/CurveDB
+instanceKlass sun/security/ec/SunECEntries
+instanceKlass sun/security/ec/SunEC$1
+instanceKlass java/security/interfaces/DSAPublicKey
+instanceKlass java/security/interfaces/DSAKey
+instanceKlass java/security/spec/DSAPublicKeySpec
+instanceKlass java/security/AlgorithmParametersSpi
+instanceKlass java/security/AlgorithmParameters
+instanceKlass sun/security/x509/RFC822Name
+instanceKlass sun/security/x509/NetscapeCertTypeExtension$MapEntry
+instanceKlass javax/net/ssl/SSLContextSpi
+instanceKlass javax/net/ssl/SSLContext
