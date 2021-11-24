@@ -103,7 +103,7 @@ public class PrincipalBean {
                         log.info(" ::: Descripción: " + listAdjuntoVO.get(i).getDescripcionAdjunto());
 
                         // Validar si la descripción tiene la marca
-                        log.info(" ::: nO SE  '" + PrincipalKeys.KEY_ARCHIVO_REPLICADO_EN_SALESFORCE + "'");
+                        log.info(" ::: '" + PrincipalKeys.KEY_ARCHIVO_REPLICADO_EN_SALESFORCE + "'");
                         if (Boolean.TRUE || (listAdjuntoVO.get(i).getDescripcionAdjunto()!=null
                                 && !listAdjuntoVO.get(i).getDescripcionAdjunto().isEmpty()
                                 && listAdjuntoVO.get(i).getDescripcionAdjunto().contains(PrincipalKeys.KEY_ARCHIVO_REPLICADO_EN_SALESFORCE))) {
